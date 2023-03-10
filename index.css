@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    color: rgb(220, 20, 60);
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.text p {
+    color: rgb(54, 74, 6);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.add input {
+    width: 80%;
+    height: 35px;
+}
+
+.add button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(216, 192, 7);
+    color: #fff;
+    cursor: pointer;
+}
+
+.result h3 {
+    margin-top: 10px;
+}
+
+.text2{
+    height: 30px;
+    width: 70%;
+}
+
+.result .check,
+.sub-check {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(159, 141, 4);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.text-result {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    overflow-wrap: normal;
+}
+
+.text-result .sub-clearx {
+    width: 15px;
+    height: 15px;
+    background: rgb(214, 5, 5);
+    margin-left: 2px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.clear {
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
